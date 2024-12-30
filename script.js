@@ -16,7 +16,7 @@ thatGuy.print();
 
 const button = document.getElementById('contact');
 button.addEventListener('click', () => {
-  window.location.href = 'https://shor.by/ZwMr';
+  window.location.href = 'https://seemless.link/@BlueLips77';
 
   
 });
