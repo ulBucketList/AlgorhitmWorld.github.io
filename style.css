@@ -197,6 +197,13 @@ background: linear-gradient(#121212, #181818);
 
 
 h5, h6{
+font-size: 20px;
+}
 
-  font-size: 20px;
+fa-regular fa-folder{
+  font-family: 'Times New Roman', Times, serif;
+
+
+
+
 }
