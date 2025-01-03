@@ -1,0 +1,340 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#welcome-message{
+  color: #FFFFFF;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 0 0 5px #000000;;
+}
+  
+
+nav{
+  height: 20px;
+  align-items: start;
+  padding-bottom: 10px;
+  background:linear-gradient(#121212, #181818);
+  border-bottom:solid 2px #5c6571;
+  
+ 
+  
+ 
+  
+  
+}
+
+
+
+
+
+
+a{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  font-size: 17px;
+  margin-right: 10px;
+  
+ 
+
+
+  
+}
+
+.O:hover{
+
+  opacity: 0.5;
+  border: 2px solid  #BCCCDC;
+  border-radius: 50%;
+ 
+}
+
+
+.L:hover{
+  opacity: 0.5;
+  border: 2px solid  #BCCCDC;
+  border-radius: 50%;
+  
+}
+
+
+.F:hover{
+  opacity: 0.5;
+  border: 2px solid  #BCCCDC;
+  border-radius: 50%;
+
+
+}
+
+
+
+body {
+
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #121212;
+}
+
+
+
+.avatar {
+  border: 10px solid black;
+  border-radius: 50%;
+  background-image: url(Color\ Palette.png);
+  background-size: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Picture{
+  background-image: url("joey-kyber-Pihl8kTtX-s-unsplash.jpg" );
+
+  padding-left: 500px;
+  
+  
+  background-position: center;
+ 
+ 
+  height: 700px;
+  
+}
+
+.card {
+  width: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 19px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  background-color: #181818;
+  border: solid 2px #282828;
+}
+
+.info {
+
+  margin: auto;
+  padding: 20px;
+  color: #FFFFFF;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+  
+  
+  
+}
+
+.Profile {
+  width: 340px;
+  height: 340px;
+  background-color: #282828;
+
+  
+}
+
+
+
+.Profile:hover {
+  background-color: #282828;
+  opacity: 0.5;
+}
+
+
+.name {
+  font-weight:normal;
+  font-size: 25px;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+
+}
+
+#src{
+
+
+  display: flex;
+  justify-content: center;
+ margin: 0 auto;
+  padding: 10px 10px;
+  
+}
+
+#block {
+
+  height: 1100px;
+  background-color: #181818;
+
+
+  
+}
+
+
+
+
+
+
+#aboutMeSection{
+
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid #FFFFFF 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+#Quotes{
+
+
+
+ 
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  float: left;
+  margin-right: 50px;
+  
+  
+
+}
+
+h4{
+
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h5, h6{
+font-size: 20px;
+}
+
+h7{
+
+  font-size: 25px;
+ 
+}
+ p{
+
+   color: white;
+   text-align: center;
+ }
+
+
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 100%;
+    margin: 0 auto;
+  border-bottom: 2px solid #282828;
+  
+  
+  
+}
+
+/* Style each of the sides 
+  with a fixed width and height */
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+margin-bottom: 10px;
+ 
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(728px * 4);
+
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 10s ease infinite;
+}
+
+/* Set the background color
+  of each of the slides */
+.slide:nth-child(1) {
+    width: 100%;
+
+    max-width: 600px; /* Adjust as needed */
+
+     margin: 20px auto; 
+      
+
+  
+}
+
+.slide:nth-child(2) {
+   width: 100%;
+
+   max-width: 600px; /* Adjust as needed */
+
+   margin: 20px auto; 
+
+}
+
+.slide:nth-child(3) {
+    width: 100%;
+
+    max-width: 600px; /* Adjust as needed */
+
+    margin: 20px auto; 
+
+}
+
+.slide:nth-child(4) {
+    width: 100%;
+
+    max-width: 600px; /* Adjust as needed */
+
+    margin: 20px auto; 
+
+}
+
+/* Define the animation 
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+
+  item1{margin: 0 auto;
+        text-align: center;
+
+  
+  }
+
+  
