@@ -36,7 +36,7 @@ window.location.href = 'https://www.linkedin.com/in/daijohnbryant/')
 const button4 = document.getElementById("portfolio")
 button4.addEventListener('click', function(){
 
-window.location.href = 'portfolio.html';  
+window.location.href = 'https://github.com/ulBucketList';  
   
 })
 
